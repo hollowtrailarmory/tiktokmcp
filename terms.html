@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — [App Name]</title>
+<style>
+  :root{
+    --bg:#f6f7f8;
+    --surface:#ffffff;
+    --ink:#16191d;
+    --muted:#586069;
+    --faint:#8a929c;
+    --line:#e6e8ea;
+    --accent:#0f766e;
+    --accent-soft:#d8ece9;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{
+    max-width:720px;
+    margin:0 auto;
+    padding:clamp(28px,6vw,72px) clamp(20px,5vw,40px);
+  }
+  .card{
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:clamp(28px,5vw,56px);
+  }
+  .eyebrow{
+    font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin:0 0 14px;
+  }
+  h1{
+    font-size:clamp(26px,4.5vw,34px);
+    line-height:1.2;
+    letter-spacing:-.01em;
+    margin:0 0 18px;
+  }
+  .meta{
+    font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+    font-size:12.5px;
+    color:var(--faint);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    padding:14px 0;
+    margin:0 0 32px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px 22px;
+  }
+  .meta span{white-space:nowrap;}
+  .meta b{color:var(--muted);font-weight:600;}
+  h2{
+    font-size:17px;
+    letter-spacing:-.005em;
+    margin:34px 0 8px;
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+  }
+  h2 .n{
+    font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+    font-size:12px;
+    color:var(--accent);
+    font-weight:600;
+  }
+  p{margin:0 0 14px;color:#23272c;}
+  ul{margin:0 0 14px;padding-left:20px;}
+  li{margin:0 0 7px;color:#23272c;}
+  a{color:var(--accent);text-underline-offset:2px;}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px;}
+  .lead{color:var(--muted);font-size:16.5px;}
+  .note{
+    margin-top:30px;
+    padding:14px 16px;
+    background:var(--accent-soft);
+    border-radius:10px;
+    font-size:14px;
+    color:#15514c;
+  }
+  footer{
+    text-align:center;
+    color:var(--faint);
+    font-size:12.5px;
+    margin-top:26px;
+    font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="card">
+      <p class="eyebrow">Terms of Service</p>
+      <h1>[App Name]</h1>
+      <div class="meta">
+        <span><b>Effective:</b> June 15, 2026</span>
+        <span><b>Operator:</b> [Your Name]</span>
+        <span><b>Contact:</b> [contact@example.com]</span>
+      </div>
+
+      <p class="lead">These terms govern use of [App Name] ("the application"), a private, personal-use tool operated by an individual that integrates with TikTok through TikTok's official developer APIs. By using the application, the operator agrees to these terms.</p>
+
+      <h2><span class="n">1.</span> Description</h2>
+      <p>The application is a private integration intended for use by its operator only. Its functionality depends on the availability of the TikTok API and may change or stop working if TikTok modifies or discontinues its services.</p>
+
+      <h2><span class="n">2.</span> Acceptable use</h2>
+      <p>The application must be used only for lawful purposes and in compliance with all applicable laws, as well as TikTok's Terms of Service and Developer Terms and Policies. The operator agrees not to use the application to access data they are not authorized to access or to circumvent any TikTok platform restrictions.</p>
+
+      <h2><span class="n">3.</span> Relationship with TikTok</h2>
+      <p>The application relies on TikTok's services and is subject to TikTok's terms and policies. The application is independent and is not affiliated with, endorsed by, or sponsored by TikTok or ByteDance Ltd. All TikTok trademarks belong to their respective owners.</p>
+
+      <h2><span class="n">4.</span> No warranty</h2>
+      <p>The application is provided "as is" and "as available," without warranties of any kind, whether express or implied. The operator uses the application at their own risk and is responsible for how it is configured and run.</p>
+
+      <h2><span class="n">5.</span> Limitation of liability</h2>
+      <p>To the fullest extent permitted by law, the application and its operator are not liable for any indirect, incidental, or consequential damages arising from use of the application, including any loss of data or interruption of service.</p>
+
+      <h2><span class="n">6.</span> Changes</h2>
+      <p>These terms may be updated from time to time. Continued use of the application after a change constitutes acceptance of the updated terms. The effective date above reflects the latest revision.</p>
+
+      <h2><span class="n">7.</span> Contact</h2>
+      <p>Questions about these terms can be directed to <a href="mailto:contact@example.com">[contact@example.com]</a>.</p>
+
+      <p class="note">This application is independent and is not affiliated with, endorsed by, or sponsored by TikTok or ByteDance Ltd.</p>
+    </main>
+    <footer>[App Name] · Private application</footer>
+  </div>
+</body>
+</html>
